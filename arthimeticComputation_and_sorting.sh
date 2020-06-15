@@ -2,7 +2,5 @@
 read -p "Enter the value of a " a
 read -p "Enter the value of b " b
 read -p "Enter the value of c " c
-echo "a="$a
-echo "b="$b
-echo "c="$c
-
+result_1=$((($a+$b)*$c))
+echo "Result of (a+b*c)=" $result_1
