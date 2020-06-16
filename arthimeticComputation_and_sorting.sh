@@ -51,5 +51,4 @@ do
 done
 echo "The array arranged in Ascending order are given below"
 echo ${arr[@]}
-=======
->>>>>>> 674474c666f665e72f8cd65fda99bc15947380ee
+
