@@ -15,12 +15,14 @@ result_dict[1]=$result_1
 result_dict[2]=$result_2
 result_dict[3]=$result_3
 result_dict[4]=$result_4
+echo ${result_dict[@]}
 for(( i=0; i<4; i++ ))
 do
 	t=$(($i+1))
 	arr[i]=${result_dict[t]}
 done
 echo ${arr[@]}
+<<<<<<< HEAD
 for (( i=0; i<4; i++ ))
 do
 	for(( j=i+1; j<4; j++ ))
@@ -49,3 +51,5 @@ do
 done
 echo "The array arranged in Ascending order are given below"
 echo ${arr[@]}
+=======
+>>>>>>> 674474c666f665e72f8cd65fda99bc15947380ee
